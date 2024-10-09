@@ -33,7 +33,7 @@ const footer = () => {
       <div className='w-11/12 md:w-10/12'>
         <div className='flex flex-col-reverse md:flex-row w-full'>
           <div className=''>
-            <h1 className='text-white font-bold text-4xl'>Badri<span className='text-primary'>Sarraf</span></h1>
+            <h1 className='text-white font-semibold text-3xl'>Badri<span className='text-primary'>Sarraf</span></h1>
           </div>
         </div>
         <div className='flex flex-col md:flex-row items-start justify-between'>
@@ -57,7 +57,7 @@ const footer = () => {
           <div className='w-full md:w-[65%] flex flex-col'>
             <div className='w-full flex flex-col md:flex-row justify-end gap-4 '>
                 <div className='w-full md:w-[25%]'>
-                  <h1 className='text-primary font-semibold text-base mb-3 hidden md:block'>Company</h1>
+                  <h1 className='text-primary font-normal text-base mb-3 hidden md:block'>Company</h1>
                   <div onClick={toggleUlVisibility1} className='flex items-center justify-between cursor-poroboto md:hidden'>
                     <h1 className='text-primary font-light text-sm mb-1'>Company</h1>   
                     {isUlVisible1 ? (
@@ -79,7 +79,7 @@ const footer = () => {
                   </ul>
                 </div>
                 <div className='w-full md:w-[25%]'>
-                  <h1 className='text-primary font-semibold text-base mb-3 hidden md:block'>Policies</h1>
+                  <h1 className='text-primary font-normal text-base mb-3 hidden md:block'>Policies</h1>
                   <div onClick={toggleUlVisibility3} className='flex items-center justify-between cursor-poroboto md:hidden'>
                       <h1 className='text-primary font-light text-sm mb-1'>Policies</h1>
                       {isUlVisible3 ? (
@@ -103,7 +103,7 @@ const footer = () => {
                   </ul> 
                 </div>
                 <div className='w-full md:w-[25%]'>
-                  <h1 className='text-primary  font-semibold text-base mb-3 hidden md:block'>Support</h1>
+                  <h1 className='text-primary  font-normal text-base mb-3 hidden md:block'>Support</h1>
                   <div onClick={toggleUlVisibility5} className='flex items-center justify-between cursor-poroboto md:hidden'>
                       <h1 className='text-primary font-light text-sm
                        mb-1'>Support</h1>

@@ -58,7 +58,7 @@ const Navbar = () => {
       <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} className="container my-4 flex justify-between items-center">
         {/* Logo section */}
         <div className="">
-          <NavLink to="/"><h1 className="text-xl md:text-4xl font-semibold text-black">Badri<span className="text-light">Sarraf</span></h1></NavLink>
+          <NavLink to="/"><h1 className="text-xl md:text-3xl font-semibold text-black">Badri<span className="text-light">Sarraf</span></h1></NavLink>
         </div>
 
         {/* Menu section */}    

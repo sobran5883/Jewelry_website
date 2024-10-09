@@ -102,7 +102,7 @@ const Resume = () => {
             <div className="w-full flex justify-center">
               <h1 className="font-semibold text-xl md:text-3xl">Trending Categories</h1>
             </div>
-            <div className="w-full font-medium md:font-semibold text-sm md:text-lg flex justify-between mt-8 px-2">
+            <div className="w-full font-medium text-sm md:text-lg flex justify-between mt-8 px-2">
             <button onClick={() => setActiveTab("earring")} className={`py-1 px-2 ${activeTab === "earring" ? "text-light border-b-2 border-light pb-1" : "text-black/60 hover:text-light"}`}>Earrings</button>
             <button onClick={() => setActiveTab("necklace")} className={`py-1 px-2 ${activeTab === "necklace" ? "text-light border-b-2 border-light pb-1" : "text-black/60 hover:text-light"}`}>Necklaces</button>
             <button onClick={() => setActiveTab("ring")} className={`py-1 px-2 ${activeTab === "ring" ? "text-light border-b-2 border-light pb-1" : "text-black/60 hover:text-light"}`}>Rings</button>
@@ -110,7 +110,7 @@ const Resume = () => {
             </div>
           </div>
 
-          <div className="min-h-[70vh] w-full my-10">
+          <div className="w-full mt-8 mb-20">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {activeTab === "earring" && (
                 earring.map((earring) => (
