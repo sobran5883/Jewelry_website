@@ -3,6 +3,7 @@ import { IoMdMenu } from "react-icons/io";
 import { motion } from "framer-motion";
 import { Button, Drawer } from 'antd';
 import { NavLink, useLocation } from "react-router-dom";
+import bslogo from '../assets/bslogo.png'
 
 
 const NavbarMenu = [
@@ -55,10 +56,12 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-center w-full">
     <nav className={`${scrolled ? "backdrop-blur-sm bg-white/70" : ""} w-10/12 z-50`}>
-      <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} className="container my-4 flex justify-between items-center">
+      <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} className="container flex justify-between items-center">
         {/* Logo section */}
         <div className="">
-          <NavLink to="/"><h1 className="text-xl md:text-3xl font-semibold text-black">Badri<span className="text-light">Sarraf</span></h1></NavLink>
+          <NavLink to="/">
+            <img className="h-12 md:h-20" src={bslogo} alt="" />
+          </NavLink>
         </div>
 
         {/* Menu section */}    

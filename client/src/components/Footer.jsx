@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom'
 import { IoHomeOutline } from "react-icons/io5";
 import { IoMailOutline } from "react-icons/io5";
 import { LuCopyright } from "react-icons/lu";
+import bslogo from '../assets/bslogo.png'
 const footer = () => {
   const [showModal, setShowModal] = useState(false)
   const [isUlVisible1, setIsUlVisible1] = useState(false);
@@ -29,17 +30,17 @@ const footer = () => {
     setIsUlVisible5(!isUlVisible5);
   };
   return (
-    <div className='w-full flex items-center justify-center bg-[#1D1B1B] pt-10 pb-4'>
+    <div className='w-full flex items-center justify-center bg-[#1D1B1B] pb-4'>
       <div className='w-11/12 md:w-10/12'>
         <div className='flex flex-col-reverse md:flex-row w-full'>
           <div className=''>
-            <h1 className='text-white font-semibold text-3xl'>Badri<span className='text-primary'>Sarraf</span></h1>
+          <img className="h-12 md:h-20" src={bslogo} alt="" />
           </div>
         </div>
         <div className='flex flex-col md:flex-row items-start justify-between'>
           <div className='md:w-[30%]'>
             <div>
-              <p className='text-white font-roboto font-light text-sm'>Badri Sarraf is your destination for exquisite, handcrafted jewelry that embodies timeless elegance. From special occasions to everyday wear, our pieces bring beauty and sophistication to any style. With a commitment to quality and innovation, Badri Sarraf offers jewelry that you’ll cherish for generations.</p>
+              <p className='text-white font-roboto font-light text-sm'>Pushker Badri Sarraf is your destination for exquisite, handcrafted jewelry that embodies timeless elegance. From special occasions to everyday wear, our pieces bring beauty and sophistication to any style. With a commitment to quality and innovation, Badri Sarraf offers jewelry that you’ll cherish for generations.</p>
             </div>
             <div className='md:mt-12 mt-4 md:mb-6 mb-4 flex items-start'>
               <IoHomeOutline className='text-primary text-lg'/>
