@@ -44,7 +44,10 @@ const footer = () => {
             </div>
             <div className='md:mt-12 mt-4 md:mb-6 mb-4 flex items-start'>
               <IoHomeOutline className='text-primary text-lg'/>
-              <p className='text-white font-roboto font-light text-sm pl-2'>M-16 Basement Gole Market Lucknow</p>
+              <div className='flex flex-col'>
+                <p className='text-white font-roboto font-light text-sm pl-2'>M-16 Basement Gole Market Lucknow</p>
+                <p className='text-white font-roboto font-light text-sm pl-2'>3/113 Vivek Khand Gomtinagar Lucknow</p>
+              </div>
             </div>
             <div className='flex items-start'>
               <IoMailOutline className='text-primary text-lg'/>
